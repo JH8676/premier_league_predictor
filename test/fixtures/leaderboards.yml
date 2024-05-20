@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: leaderboards
+#
+#  id         :bigint           not null, primary key
+#  points     :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  user: one
+  points: 1
+
+two:
+  user: two
+  points: 1

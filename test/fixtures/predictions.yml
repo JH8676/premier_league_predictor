@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: predictions
+#
+#  id              :bigint           not null, primary key
+#  fixture_id      :bigint
+#  predicted_score :string
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+one:
+  user: one
+  fixture: one
+  predicted_score: MyString
+
+two:
+  user: two
+  fixture: two
+  predicted_score: MyString
